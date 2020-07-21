@@ -1,5 +1,16 @@
+body {
+  background-image: url(./assets/background.jpg);
+  background-size: cover;
+}
+
 .App {
   text-align: center;
+  
+  display: flex;
+  flex-direction: row;
+}
+.col-3 {
+  width: 33.3%;
 }
 
 .App-logo {
@@ -9,7 +20,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -31,3 +41,97 @@
     transform: rotate(360deg);
   }
 }
+.profile-box {
+  margin:100px auto;
+  box-shadow:1px 0px 150px #000;
+  color: #fff;
+  height: 300px;
+  width: 300px;
+  background-color: rgba(0, 0, 0, .4);
+  border-radius:150px;
+  Color: #fff;
+  transition-duration: 1s;
+  position: relative;
+}
+.profile-box:hover {
+  background-color:  rgba(12,10, 232, .2);
+  box-shadow:1px 0px 150px rgb(255,255, 255);
+}
+.profile-box h1 {
+  transform: translate(5px,100px);
+}
+.profile-box small {
+  transform: translate(50px,90px);
+  display: block;
+  text-decoration: underline;
+}
+.profile-box a {
+  transform: translate(12px,120px);
+  display: block;
+  color: #000;
+  width: 93%;
+  text-decoration: none;
+  background-color: yellow;
+  border-radius: 0px 0px 100px 100px;
+}
+.works, .technology {
+  height: 80vh;
+  box-shadow:1px 0px 150px #000;
+  color: #fff;
+  display: block;
+  margin-top: 30px;
+  transition-duration: 1s;
+  
+}
+.works:hover, .technology:hover {
+  
+  background-color:  rgba(12,10, 232, .2);
+  box-shadow:1px 0px 150px rgb(255,255, 255);
+
+}
+.works {
+  border-radius:0px 20px 20px 0px;
+}
+.technology {
+  border-radius:20px 0px 0px 20px;
+  padding: 5px;
+}
+.technology .list {width: 100%;}
+.technology .technology-item { width: 100%; margin: 5px 0px; background-color: #fff; display: flex; color:#000; }
+.technology .technology-item progress[value] { padding: 3px 0px; text-align: right;-webkit-appearance: none;
+  appearance: none;
+  height: 28px;
+  margin: 0px;
+  padding: 0px
+}
+progress::-moz-progress-bar { background:repeating-linear-gradient(
+  135deg,
+  #088f06,
+  #088f06 2px,
+  #fff 5px,
+  #fff 2px
+); }
+progress::-webkit-progress-value { background: repeating-linear-gradient(
+  135deg,
+  #088f06,
+  #088f06 2px,
+  #fff 5px,
+  #fff 2px
+); }
+progress { color:repeating-linear-gradient(
+  135deg,
+  #088f06,
+  #088f06 2px,
+  #fff 5px,
+  #fff 2px
+); }
+
+.technology .technology-item  progress[value]::-webkit-progress-bar {
+    background-color: #ccc;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+  }
+  .technology .technology-item .value {width: 70px;}
+.technology .technology-item .title {background-color:#088f06; color: #fff; width: 120px; min-width: 120px;  padding: 3px 0px;}
+@keyframes animate-stripes { 100% { background-position: -100px 0; } }
+
