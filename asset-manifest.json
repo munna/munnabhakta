@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.1f95e6be.chunk.css",
-    "main.js": "/static/js/main.0ee233d9.chunk.js",
-    "main.js.map": "/static/js/main.0ee233d9.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.e7270562.js",
-    "runtime~main.js.map": "/static/js/runtime~main.e7270562.js.map",
-    "static/js/2.b23c80e5.chunk.js": "/static/js/2.b23c80e5.chunk.js",
-    "static/js/2.b23c80e5.chunk.js.map": "/static/js/2.b23c80e5.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.d3e9c8e55fbe6b2eb4a537866fd4830e.js": "/precache-manifest.d3e9c8e55fbe6b2eb4a537866fd4830e.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.1f95e6be.chunk.css.map": "/static/css/main.1f95e6be.chunk.css.map",
-    "static/media/App.css": "/static/media/background.3677f872.jpg"
+    "main.css": "/munnabhakta/static/css/main.ae574413.chunk.css",
+    "main.js": "/munnabhakta/static/js/main.11d11e76.chunk.js",
+    "main.js.map": "/munnabhakta/static/js/main.11d11e76.chunk.js.map",
+    "runtime~main.js": "/munnabhakta/static/js/runtime~main.c11b4397.js",
+    "runtime~main.js.map": "/munnabhakta/static/js/runtime~main.c11b4397.js.map",
+    "static/js/2.b23c80e5.chunk.js": "/munnabhakta/static/js/2.b23c80e5.chunk.js",
+    "static/js/2.b23c80e5.chunk.js.map": "/munnabhakta/static/js/2.b23c80e5.chunk.js.map",
+    "index.html": "/munnabhakta/index.html",
+    "precache-manifest.3eb7d174d8f0c86abdfa1f1bfee97f35.js": "/munnabhakta/precache-manifest.3eb7d174d8f0c86abdfa1f1bfee97f35.js",
+    "service-worker.js": "/munnabhakta/service-worker.js",
+    "static/css/main.ae574413.chunk.css.map": "/munnabhakta/static/css/main.ae574413.chunk.css.map",
+    "static/media/App.css": "/munnabhakta/static/media/background.3677f872.jpg"
   }
 }
