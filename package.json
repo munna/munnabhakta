@@ -2,7 +2,7 @@
   "name": "munnabhakta",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/munna/munnabhakta",
+  "homepage": "https://munna.github.io/munnabhakta",
   "dependencies": {
     "@types/jest": "^24.0.18",
     "@types/node": "^12.7.5",
