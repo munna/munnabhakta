@@ -135,3 +135,19 @@ progress { color:repeating-linear-gradient(
 .technology .technology-item .title {background-color:#088f06; color: #fff; width: 120px; min-width: 120px;  padding: 3px 0px;}
 @keyframes animate-stripes { 100% { background-position: -100px 0; } }
 
+
+
+@media screen and (max-width: 800px) {
+  .App {
+    flex-direction: column;
+  }
+  .col-3 {
+    width: 100%;
+  }
+  .App>div:first-child {
+    order: 1;
+    margin-top: 30px;
+  }
+
+}
+

@@ -1,4 +1,5 @@
 import React from 'react';
+import { SocialIcon } from 'react-social-icons';
 import logo from './assets/logo.jpg';
 import './App.css';
 
@@ -11,6 +12,9 @@ const App: React.FC = () => {
   and took admission in NIIT and started my programming carrier. While I was stuyding, I started my carrier in Torush InfoTech PVT. LTD. in 2008.
 </p>
 <p>Currently working as Senior Project Manager at Fervent Software Solutions - a Software Development company based out from New Delhi, India</p>
+<p><SocialIcon
+  url="https://twitter.com/munnabhakta"
+/></p>
       </div>
       <div className="col-3">
       <div className="profile-box">

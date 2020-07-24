@@ -2,7 +2,7 @@
   "name": "munnabhakta",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://munnabhakta.com/",
+  "homepage": "https://munnabhakta.com",
   "dependencies": {
     "@types/jest": "^24.0.18",
     "@types/node": "^12.7.5",
@@ -36,5 +36,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "react-social-icons": "^4.1.0"
   }
 }
