@@ -52,6 +52,7 @@ body {
   Color: #fff;
   transition-duration: 1s;
   position: relative;
+  box-shadow:1px 0px 30px rgb(255,255, 255);
 }
 .profile-box:hover {
   background-color:  rgba(12,10, 232, .2);
@@ -80,6 +81,7 @@ body {
   color: #fff;
   display: block;
   margin-top: 30px;
+  min-height: 400px;
   transition-duration: 1s;
   
 }
@@ -147,6 +149,12 @@ progress { color:repeating-linear-gradient(
   .App>div:first-child {
     order: 1;
     margin-top: 30px;
+    clear:both;
+  }
+  .App>div:last-child {
+    order: 2;
+    margin-top: 150px;
+    clear:both;
   }
 
 }
