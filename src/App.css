@@ -81,7 +81,6 @@ body {
   color: #fff;
   display: block;
   margin-top: 30px;
-  min-height: 400px;
   transition-duration: 1s;
   
 }
@@ -146,6 +145,9 @@ progress { color:repeating-linear-gradient(
   .col-3 {
     width: 100%;
   }
+  .works, .technology {
+    height: initial;
+  }
   .App>div:first-child {
     order: 1;
     margin-top: 30px;
@@ -153,7 +155,7 @@ progress { color:repeating-linear-gradient(
   }
   .App>div:last-child {
     order: 2;
-    margin-top: 150px;
+    margin-top: 30px;
     clear:both;
   }
 
